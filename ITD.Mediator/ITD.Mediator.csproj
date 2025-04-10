@@ -4,6 +4,12 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	<Version>1.0.0</Version>
+	<Authors>TomaszIgn</Authors>
+	<PackageId>TomaszIgnDev.MediatR</PackageId>
+	<Description>Mediator pattern lib</Description>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<PackageProjectUrl>https://github.com/TomaszIgn/ITD.Mediator</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
