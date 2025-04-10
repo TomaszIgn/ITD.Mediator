@@ -29,7 +29,6 @@ public static class ServiceCollectionExtensions
                 services.AddScoped(@interface, type);
             }
         }
-
         return services;
     }
 }
