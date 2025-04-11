@@ -73,9 +73,11 @@ public class MediatorBuilder
             }
         }
 
-        foreach (var openBehavior in _openBehaviors.Distinct())
+        foreach (Type? openBehavior in _openBehaviors.Distinct())
         {
             _services.AddScoped(typeof(IPipelineBehavior<,>), openBehavior);
         }
+
+        _services.AddScoped<IPublisher, DefaultPublisher>();
     }
 }
