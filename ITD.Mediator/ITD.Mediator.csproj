@@ -17,4 +17,12 @@
     <PackageReference Include="TomaszIgnDev.Result" Version="1.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\ignaszto\source\repos\!priv\itd-projects\ITD.Mediator\ITD.Mediator\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\ignaszto\source\repos\!priv\itd-projects\ITD.Mediator\ITD.Mediator\.editorconfig" />
+  </ItemGroup>
+
 </Project>

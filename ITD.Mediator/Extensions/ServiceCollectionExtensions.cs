@@ -31,4 +31,12 @@ public static class ServiceCollectionExtensions
         }
         return services;
     }
+
+    public static IServiceCollection AddITDMediator(this IServiceCollection services, Action<MediatorBuilder> configure)
+    {
+        MediatorBuilder builder = new MediatorBuilder(services);
+        configure(builder);
+        builder.Build();
+        return services;
+    }
 }
