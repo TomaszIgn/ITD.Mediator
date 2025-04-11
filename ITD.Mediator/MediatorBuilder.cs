@@ -39,7 +39,7 @@ public class MediatorBuilder
 
     internal void Build()
     {
-        _services.AddScoped<Mediator>();
+        _services.AddScoped<IMediator, Mediator>();
 
         foreach (Assembly? assembly in _assemblies.Distinct())
         {
