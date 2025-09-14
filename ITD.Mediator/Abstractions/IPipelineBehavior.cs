@@ -1,4 +1,5 @@
 ﻿namespace ITD.Mediator.Abstractions;
+
 public interface IPipelineBehavior<TRequest, TResponse>
     where TRequest : IRequest<TResponse>
 {
